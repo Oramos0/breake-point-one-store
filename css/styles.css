@@ -1,0 +1,32 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.container-mini {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.container-mini .title-mini {
+  width: 100%;
+  text-align: center;
+  color: #145374;
+}
+.container-mini .container-image {
+  height: 500px;
+  width: 25%;
+  object-fit: cover;
+  background-color: black;
+}
+.container-mini .mini-image {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+  background-color: black;
+}
+.container-mini .mini-image:hover {
+  opacity: 0.5;
+}
+
+/*# sourceMappingURL=styles.css.map */
