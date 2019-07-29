@@ -3,18 +3,26 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-/*   background-color: black; */
+  
+  .title-mini {
+    width: 100%;
+    text-align: center;
+    color: #145374;
+  }
 
-  .mini-image {
-    height: 400px;
-    width: 300px;
+  .container-image {
+    height: 500px;
+    width: 25%;
     object-fit: cover;
     background-color: black;
   }
 
-  .mini-image:hover {
+  .mini-image {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
     background-color: black;
-    opacity: 0.5;
   }
-}
 
+  .mini-image:hover { opacity: 0.5; }
+}
