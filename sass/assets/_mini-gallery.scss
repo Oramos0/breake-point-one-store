@@ -1,0 +1,20 @@
+.container-mini {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+/*   background-color: black; */
+
+  .mini-image {
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+    background-color: black;
+  }
+
+  .mini-image:hover {
+    background-color: black;
+    opacity: 0.5;
+  }
+}
+
