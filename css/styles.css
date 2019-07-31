@@ -52,10 +52,19 @@ body {
 .header .logo {
   padding: 14px 16px;
 }
+.header .logo a {
+  color: #e8e8e8;
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
 .header .header-right {
   display: block;
   width: 100%;
   justify-content: flex-end;
+  align-items: center;
 }
 .header .header-right .content-search {
   padding: 14px 16px;
@@ -150,9 +159,14 @@ footer .container-footer {
   margin: 0.5rem 0.5rem 0.5rem 0.5rem;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 footer .container-footer .col:nth-child(3) {
   display: flex;
+}
+footer .container-footer .col:nth-child(3) .col {
+  display: flex;
+  align-items: center;
 }
 footer .container-footer .col:nth-child(3) ul {
   font-family: "montserrat-regular", sans-serif;

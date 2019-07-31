@@ -16,8 +16,13 @@ footer {
         margin: 0.5rem 0.5rem 0.5rem 0.5rem;
         display: flex;
         justify-content: space-between;
+        align-items: center;
         .col:nth-child(3){
             display: flex;
+            .col{
+                display: flex;
+                align-items: center;
+            }
             ul{
                 font-family: "montserrat-regular", sans-serif;
                 list-style: none;
