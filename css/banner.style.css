@@ -27,13 +27,13 @@
 }
 
 .carousel__slide {
-background: var(--CL-BLUE);
+  background: var(--CL-BLUE);
   background-position: center;
   background-size: cover;
   background-blend-mode: multiply;
   height: var(--slide-width); /*Tamaños de acuerdo al contenedor n.n*/
   min-width: var(--slide-width);
-  box-shadow: 1em 1em 3em 0 rgba(180, 140, 140, 0.25);
+  box-shadow: 1em 1em 2em 0 black;
   opacity: 0.35;
   transform: scale(0.85);
   position: relative;
