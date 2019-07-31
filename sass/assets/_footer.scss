@@ -1,0 +1,84 @@
+$white: #e8e8e8;
+$secondary: #5588a3;
+$blue: #145374;
+$primary: #00334e;
+
+footer {
+    position: absolute;
+    right: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: $primary;
+    text-align: center;
+    color: $white;
+    height: 5vh;
+    .container-footer{
+        margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+        display: flex;
+        justify-content: space-between;
+        .col:nth-child(3){
+            display: flex;
+            ul{
+                font-family: "montserrat-regular", sans-serif;
+                list-style: none;
+                margin: 0;
+                position: absolute;
+                top: 50%;
+                right: 5.4rem;
+                -webkit-transform: translate3d(0, -50%, 0);
+                -ms-transform: translate3d(0, -50%, 0);
+                transform: translate3d(0, -50%, 0);
+                li{
+                    position: relative;
+                    padding: 0.4rem 0.5rem;
+                    float: left;
+                    a{
+                        display: block;
+                        width: 33px;
+                        height: 33px;
+                    }
+                }
+
+                a{
+                    color: white;
+                    -webkit-transition: all 0.5s ease-in-out;
+                    transition: all 0.5s ease-in-out;
+                }
+
+                i{
+                    font-size: 14px;
+                    right: 0;
+                    text-align: center;
+                    display: inline-block;
+                    width: 33px;
+                    height: 33px;
+                    line-height: calc(33px - 4px);
+                    border: 2px solid #FFFFFF;
+                    border-radius: 50%;
+                }
+
+                i{
+                    position: absolute;
+                    top: 0;
+                    line-height: 33px;
+                    -webkit-transition: all 0.5s ease-in-out;
+                    transition: all 0.5s ease-in-out;
+                }
+
+                span{
+                    color: #39b54a;
+                    right: 4.5rem;
+                    font-size: 1.3rem;
+                    opacity: 0;
+                    visibility: hidden;
+                    -webkit-transform: scale(0);
+                    -ms-transform: scale(0);
+                    transform: scale(0);
+                    -webkit-transform-origin: 100% 50%;
+                    -ms-transform-origin: 100% 50%;
+                    transform-origin: 100% 50%;
+                }
+            }
+        }
+    }
+ }
