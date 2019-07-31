@@ -18,15 +18,29 @@ body {
   width: 25%;
   object-fit: cover;
   background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .container-mini .mini-image {
   height: 500px;
   width: 100%;
   object-fit: cover;
   background-color: black;
+  opacity: 0.5;
+}
+.container-mini .mini-button {
+  position: absolute;
+  padding: 1em;
+  border: 1px white solid;
+  background-color: transparent;
+  color: white;
+}
+.container-mini .mini-button:hover {
+  background-color: #145374;
 }
 .container-mini .mini-image:hover {
-  opacity: 0.5;
+  opacity: 1;
 }
 
 /*# sourceMappingURL=styles.css.map */
