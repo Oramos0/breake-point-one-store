@@ -27,7 +27,7 @@ body {
   width: 100%;
   object-fit: cover;
   background-color: black;
-  opacity: 0.5;
+  opacity: 0.4;
 }
 .container-mini .mini-button {
   position: absolute;
