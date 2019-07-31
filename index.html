@@ -7,9 +7,11 @@
   <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./sass/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css//banner.style.css">
   <title>Tienda Carros</title>
 </head>
 <body>
+
   <nav class="header">
     <div class="logo">
         <a href="#">Tienda de carros</a>
@@ -37,7 +39,80 @@
       </div>
     </div>
   </nav>
+
+  <div class="carousel-container">
+    <input type="radio" name="slide-nav" id="one" >
+    <input type="radio" name="slide-nav" id="two">
+    <input type="radio" name="slide-nav" id="three">
+    <input type="radio" name="slide-nav" id="four" checked>
+    <input type="radio" name="slide-nav" id="five">
+    <input type="radio" name="slide-nav" id="six">
+    <input type="radio" name="slide-nav" id="seven">
+    
+    <div class="carousel">
+      <label for="one" class="carousel__slide" style="background-image: url(https://www.tesla.com/content/dam/tesla-site/sx-redesign/img/socialcard/MX.jpg)">
+        <div class="slide-meta">
+          <h3 class="slide-meta__title">TESLA</h3>
+          <span class="slide-meta__date">Modelo X $1,844,000.00</span>
+        </div>
+      </label>
+
   
+      <label for="two" class="carousel__slide" style="background-image: url(https://www.autobild.es/sites/autobild.es/public/styles/main_element/public/dc/fotos/tesla_model_S_001.jpg?itok=jttOEAGK)">
+        <div class="slide-meta">
+          <h3 class="slide-meta__title">TESLA</h3>
+          <span class="slide-meta__date">Modelo S $1,000,000.00</span>
+        </div>
+      </label>
+  
+      <label for="three" class="carousel__slide" style="background-image: url(https://i.blogs.es/c36099/ferrari_f8_tributo/450_1000.jpg)">
+        <div class="slide-meta">
+          <h3 class="slide-meta__title">FERRARI</h3>
+          <span class="slide-meta__date">F8 3,022,655.00</span>
+        </div>
+      </label>
+  
+      <label for="four" class="carousel__slide" style="background-image: url(https://www.autobild.es/sites/autobild.es/public/styles/main_element/public/dc/fotos/Ferrari-488_GTB_2016_01.jpg?itok=PTgduIHn)">
+        <div class="slide-meta">
+          <h3 class="slide-meta__title">FERRARI</h3>
+          <span class="slide-meta__date">488 GTB 5,062,005.08 </span>
+        </div>
+      </label>
+  
+      <label for="five" class="carousel__slide" style="background-image: url(https://www.autobild.es/sites/autobild.es/public/styles/main_element/public/dc/fotos/Lamborghini-Urus-2019-C01.jpg?itok=womd6wZI)">
+        <div class="slide-meta">
+          <h3 class="slide-meta__title">LAMBOR</h3>
+          <span class="slide-meta__date">Urus 3,644,931.97</span>
+        </div>
+      </label>
+  
+      <label for="six" class="carousel__slide" style="background-image: url(https://www.autobild.es/sites/autobild.es/public/styles/main_element/public/dc/fotos/Lamborghini-Aventador_Cabrio_01.jpg?itok=eitzx8h3)">
+        <div class="slide-meta">
+          <h3 class="slide-meta__title">Lamborghini</h3>
+          <span class="slide-meta__date">Aventador LP 8,658,991.12</span>
+        </div>
+      </label>
+  
+      <label for="seven" class="carousel__slide" style="background-image: url(https://www.autobild.es/sites/autobild.es/public/styles/main_element/public/dc/fotos/01_A193852_medium.jpg?itok=8LVfNnQ7)">
+        <div class="slide-meta">
+          <h3 class="slide-meta__title">AUDI</h3>
+          <span class="slide-meta__date">A7 S7 1,972,055.14</span>
+        </div>
+      </label>
+    </div>
+  
+    <!-- using the dot navigation will have the same effect as clicking the slides -->
+    <div class="carousel-nav">
+      <label class="carousel-nav__label" for="one"></label>
+      <label class="carousel-nav__label" for="two"></label>
+      <label class="carousel-nav__label" for="three"></label>
+      <label class="carousel-nav__label" for="four"></label>
+      <label class="carousel-nav__label" for="five"></label>
+      <label class="carousel-nav__label" for="six"></label>
+      <label class="carousel-nav__label" for="seven"></label>
+    </div>
+  
+  </div>
   <div class="container-mini">
     <h2 class="title-mini">Our Best Customers</h2>
     <div class="container-image">
