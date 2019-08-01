@@ -3,7 +3,7 @@
   --CL-DARK: #131924;
   --CL-BLUE: #5588a3;
   --CL-BLUESSEC: #145374;
-  --slide-count: 7;
+  --slide-count: 8;
   --slide-width: 20em;
 }
 
@@ -231,6 +231,23 @@ input[name=slide-nav]:nth-of-type(7):checked ~ .carousel .carousel__slide:nth-of
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 
+input[name=slide-nav]:nth-of-type(8):checked ~ .carousel {
+  transform: translateX(calc(var(--slide-width) * (-8 + 1)));
+}
+
+.carousel-container .carousel-nav__label:nth-of-type(8)::before {
+  content: "8";
+}
+
+input[name=slide-nav]:nth-of-type(8):checked ~ .carousel .carousel__slide:nth-of-type(8),
+input[name=slide-nav]:nth-of-type(8):checked ~ .carousel-nav label:nth-of-type(8) {
+  opacity: 1;
+  transform: scale(1);
+}
+
+input[name=slide-nav]:nth-of-type(8):checked ~ .carousel .carousel__slide:nth-of-type(8) .slide-meta {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
 /*aplicar la animacion a todo dentro de la etiqueta, asi no falla xd*/
 .carousel-container * {
   box-sizing: border-box;
