@@ -1,10 +1,15 @@
 body {
   font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+  
 }
 
 // * Partial --------------------------------------------------------------
 @import "./assets/mini-gallery";
+@import "./assets/nav-header";
+@import "./assets/footer";
+@import "./assets/about-us";
 
 // * Variables ------------------------------------------------------------
-
+  
 // * Mixin ----------------------------------------------------------------
