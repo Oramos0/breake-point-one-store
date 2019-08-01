@@ -10,14 +10,21 @@ $primary: #00334e;
 
     .logo{
         padding: 14px 16px;
+        a{
+            color: $white;
+            font-size: 2rem;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+        }
     }
 
     .header-right{
         display: block;
         width: 100%;
         justify-content: flex-end;
-        
-    
+        align-items: center;
         .content-search{
             padding: 14px 16px;
             display: flex;
