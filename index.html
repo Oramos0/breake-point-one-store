@@ -13,196 +13,204 @@
 </head>
 <body>
 
-  <nav class="header">
-    <div class="logo">
-        <a href="#">
-          <img src="sass/assets/logo.png" alt="">
-          YOKOHAMA</a>
-    </div>
-    <div class="header-right">
-      <div class="content-search">
-        <input type="search" class="seach-input" placeholder="Buscar" />
-        <button type="button" ><i class="fa fa-search"></i></button>
+  <section id="id-header">
+    <nav class="header">
+      <div class="logo">
+          <a href="#">
+            <img src="css/logo.png" alt="">
+            YOKOHAMA</a>
       </div>
-      <div class="content-ul">
-        <ul>
-          <li class="dropdown">
-              <a href="javascript:void(0)" class="dropbtn">Marcas</a>
-              <div class="dropdown-content">
-                <a href="./pages/tesla.html">Tesla</a>
-                <a href="./pages/ferrari.html">Ferrari</a>
-                <a href="./pages/lambor.html">Lamborghini</a>
-                <a href="./pages/audi.html">Audi</a>
-              </div>
-          </li>
-          <li>
-            <a href="#home">Contactos</a>
-          </li>
-        </ul>
+      <div class="header-right">
+        <div class="content-search">
+          <input type="search" class="seach-input" placeholder="Buscar" />
+          <button type="button" ><i class="fa fa-search"></i></button>
+        </div>
+        <div class="content-ul">
+          <ul>
+            <li>
+                <a href="/index.html">Inicio</a>
+            </li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Marcas</a>
+                <div class="dropdown-content">
+                  <a href="./pages/tesla.html">Tesla</a>
+                  <a href="./pages/ferrari.html">Ferrari</a>
+                  <a href="./pages/lambor.html">Lamborghini</a>
+                  <a href="./pages/audi.html">Audi</a>
+                </div>
+            </li>
+            <li>
+              <a href="#about">Contactos</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </section>
 
-  <div class="carousel-container">
-    <input type="radio" name="slide-nav" id="one" >
-    <input type="radio" name="slide-nav" id="two">
-    <input type="radio" name="slide-nav" id="three">
-    <input type="radio" name="slide-nav" id="four" checked>
-    <input type="radio" name="slide-nav" id="five">
-    <input type="radio" name="slide-nav" id="six">
-    <input type="radio" name="slide-nav" id="seven">
-    <input type="radio" name="slide-nav" id="eight">
+  <section id="id-body">
+    <div class="carousel-container">
+      <input type="radio" name="slide-nav" id="one" >
+      <input type="radio" name="slide-nav" id="two">
+      <input type="radio" name="slide-nav" id="three">
+      <input type="radio" name="slide-nav" id="four" checked>
+      <input type="radio" name="slide-nav" id="five">
+      <input type="radio" name="slide-nav" id="six">
+      <input type="radio" name="slide-nav" id="seven">
+      <input type="radio" name="slide-nav" id="eight">
+      
+      <div class="carousel">
+        <label for="one" class="carousel__slide" style="background-image: url(https://www.tesla.com/content/dam/tesla-site/sx-redesign/img/socialcard/MX.jpg)">
+          <div class="slide-meta">
+            <h3 class="slide-meta__title">TESLA</h3>
+            <span class="slide-meta__date">Modelo X $1,844,000.00</span>
+          </div>
+        </label>
+  
     
-    <div class="carousel">
-      <label for="one" class="carousel__slide" style="background-image: url(https://www.tesla.com/content/dam/tesla-site/sx-redesign/img/socialcard/MX.jpg)">
-        <div class="slide-meta">
-          <h3 class="slide-meta__title">TESLA</h3>
-          <span class="slide-meta__date">Modelo X $1,844,000.00</span>
-        </div>
-      </label>
-
-  
-      <label for="two" class="carousel__slide" style="background-image: url(https://www.autobild.es/sites/autobild.es/public/styles/main_element/public/dc/fotos/tesla_model_S_001.jpg?itok=jttOEAGK)">
-        <div class="slide-meta">
-          <h3 class="slide-meta__title">TESLA</h3>
-          <span class="slide-meta__date">Modelo S $1,000,000.00</span>
-        </div>
-      </label>
-  
-      <label for="three" class="carousel__slide" style="background-image: url(https://i.blogs.es/c36099/ferrari_f8_tributo/450_1000.jpg)">
-        <div class="slide-meta">
-          <h3 class="slide-meta__title">FERRARI</h3>
-          <span class="slide-meta__date">F8 $3,022,655.00</span>
-        </div>
-      </label>
-  
-      <label for="four" class="carousel__slide" style="background-image: url(https://www.autobild.es/sites/autobild.es/public/styles/main_element/public/dc/fotos/Ferrari-488_GTB_2016_01.jpg?itok=PTgduIHn)">
-        <div class="slide-meta">
-          <h3 class="slide-meta__title">FERRARI</h3>
-          <span class="slide-meta__date">488 GTB $5,062,005.08 </span>
-        </div>
-      </label>
-  
-      <label for="five" class="carousel__slide" style="background-image: url(https://www.autobild.es/sites/autobild.es/public/styles/main_element/public/dc/fotos/Lamborghini-Urus-2019-C01.jpg?itok=womd6wZI)">
-        <div class="slide-meta">
-          <h3 class="slide-meta__title">Lamborghini</h3>
-          <span class="slide-meta__date">Urus $3,644,931.97</span>
-        </div>
-      </label>
-  
-      <label for="six" class="carousel__slide" style="background-image: url(https://www.autobild.es/sites/autobild.es/public/styles/main_element/public/dc/fotos/Lamborghini-Aventador_Cabrio_01.jpg?itok=eitzx8h3)">
-        <div class="slide-meta">
-          <h3 class="slide-meta__title">Lamborghini</h3>
-          <span class="slide-meta__date">Aventador LP $8,658,991.12</span>
-        </div>
-      </label>
-  
-      <label for="seven" class="carousel__slide" style="background-image: url(https://www.autobild.es/sites/autobild.es/public/styles/main_element/public/dc/fotos/01_A193852_medium.jpg?itok=8LVfNnQ7)">
-        <div class="slide-meta">
-          <h3 class="slide-meta__title">AUDI</h3>
-          <span class="slide-meta__date">A7 S7 $1,972,055.14</span>
-        </div>
-      </label>
-      <label for="eight" class="carousel__slide" style="background-image: url(https://www.autobild.es/sites/autobild.es/public/styles/main_element/public/dc/fotos/Audi-e-tron-2020-C01.jpg?itok=-O18dE3d)">
-        <div class="slide-meta">
-          <h3 class="slide-meta__title">AUDI</h3>
-          <span class="slide-meta__date">e-tron $1,750,084.37</span>
-        </div>
-      </label>
-    </div>
-  
-    <div class="carousel-nav">
-      <label class="carousel-nav__label" for="one"></label>
-      <label class="carousel-nav__label" for="two"></label>
-      <label class="carousel-nav__label" for="three"></label>
-      <label class="carousel-nav__label" for="four"></label>
-      <label class="carousel-nav__label" for="five"></label>
-      <label class="carousel-nav__label" for="six"></label>
-      <label class="carousel-nav__label" for="seven"></label>
-      <label class="carousel-nav__label" for="eight"></label>
-    </div>
-  </div>
-  
-  <div class="container-mini">
-    <h2 class="title-mini">Our Best Customers</h2>
-    <div class="container-image">
-      <img class="mini-image" src="https://s3-prod-mexico.autonews.com/s3fs-public/Tesla%20Modelo%203.jpg" alt="">
-      <input class="mini-button" type="submit" value="TESLA">
-    </div>
-    <div class="container-image">
-      <img class="mini-image" src="https://s1.1zoom.me/b5050/794/Ferrari_458_ItaliaYellow_489057_3840x2400.jpg" alt="">
-      <input class="mini-button" type="submit" value="FERRARI">
-    </div>
-    <div class="container-image">
-      <img class="mini-image" src="https://ag-spots-2017.o.auroraobjects.eu/2017/12/15/other/2880-1800-crop-lamborghini-diablo-vt-c970315122017141730_1.jpg" alt="">
-      <input class="mini-button" type="submit" value="LAMBORGHINI">
-    </div>
-    <div class="container-image">
-      <img class="mini-image" src="https://s.yimg.com/uu/api/res/1.2/ISzZ0mYejsT9yTDrsYUaLQ--~B/aD0xOTI0O3c9Mjg4NjtzbT0xO2FwcGlkPXl0YWNoeW9u/http://media.zenfs.com/en_US/News/US-AFPRelax/audi_e_tron_gt_.e2943092624.original.jpg" alt="">
-      <input class="mini-button" type="submit" value="AUDI">
-    </div>
-  </div>
-
-  <div class="about-us-container">
-    <h3>About us</h3>
-    <div class="about-content">
-      <div class="about-img-content">
-          <img class="about-img" src="http://www.pinktentacle.com/images/flag_15.jpg" alt="">
+        <label for="two" class="carousel__slide" style="background-image: url(https://www.autobild.es/sites/autobild.es/public/styles/main_element/public/dc/fotos/tesla_model_S_001.jpg?itok=jttOEAGK)">
+          <div class="slide-meta">
+            <h3 class="slide-meta__title">TESLA</h3>
+            <span class="slide-meta__date">Modelo S $1,000,000.00</span>
+          </div>
+        </label>
+    
+        <label for="three" class="carousel__slide" style="background-image: url(https://i.blogs.es/c36099/ferrari_f8_tributo/450_1000.jpg)">
+          <div class="slide-meta">
+            <h3 class="slide-meta__title">FERRARI</h3>
+            <span class="slide-meta__date">F8 $3,022,655.00</span>
+          </div>
+        </label>
+    
+        <label for="four" class="carousel__slide" style="background-image: url(https://www.autobild.es/sites/autobild.es/public/styles/main_element/public/dc/fotos/Ferrari-488_GTB_2016_01.jpg?itok=PTgduIHn)">
+          <div class="slide-meta">
+            <h3 class="slide-meta__title">FERRARI</h3>
+            <span class="slide-meta__date">488 GTB $5,062,005.08 </span>
+          </div>
+        </label>
+    
+        <label for="five" class="carousel__slide" style="background-image: url(https://www.autobild.es/sites/autobild.es/public/styles/main_element/public/dc/fotos/Lamborghini-Urus-2019-C01.jpg?itok=womd6wZI)">
+          <div class="slide-meta">
+            <h3 class="slide-meta__title">Lamborghini</h3>
+            <span class="slide-meta__date">Urus $3,644,931.97</span>
+          </div>
+        </label>
+    
+        <label for="six" class="carousel__slide" style="background-image: url(https://www.autobild.es/sites/autobild.es/public/styles/main_element/public/dc/fotos/Lamborghini-Aventador_Cabrio_01.jpg?itok=eitzx8h3)">
+          <div class="slide-meta">
+            <h3 class="slide-meta__title">Lamborghini</h3>
+            <span class="slide-meta__date">Aventador LP $8,658,991.12</span>
+          </div>
+        </label>
+    
+        <label for="seven" class="carousel__slide" style="background-image: url(https://www.autobild.es/sites/autobild.es/public/styles/main_element/public/dc/fotos/01_A193852_medium.jpg?itok=8LVfNnQ7)">
+          <div class="slide-meta">
+            <h3 class="slide-meta__title">AUDI</h3>
+            <span class="slide-meta__date">A7 S7 $1,972,055.14</span>
+          </div>
+        </label>
+        <label for="eight" class="carousel__slide" style="background-image: url(https://www.autobild.es/sites/autobild.es/public/styles/main_element/public/dc/fotos/Audi-e-tron-2020-C01.jpg?itok=-O18dE3d)">
+          <div class="slide-meta">
+            <h3 class="slide-meta__title">AUDI</h3>
+            <span class="slide-meta__date">e-tron $1,750,084.37</span>
+          </div>
+        </label>
       </div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    
+      <div class="carousel-nav">
+        <label class="carousel-nav__label" for="one"></label>
+        <label class="carousel-nav__label" for="two"></label>
+        <label class="carousel-nav__label" for="three"></label>
+        <label class="carousel-nav__label" for="four"></label>
+        <label class="carousel-nav__label" for="five"></label>
+        <label class="carousel-nav__label" for="six"></label>
+        <label class="carousel-nav__label" for="seven"></label>
+        <label class="carousel-nav__label" for="eight"></label>
+      </div>
     </div>
-  </div>
-
-  <div class="contact-container">
-    <h3>Contact us</h3>
-    <div class="contact-img-container">
-      <!-- <img class="img-contact" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2018-tesla-model-s-100d-1545165580.jpg?crop=1.00xw:0.924xh;0,0.0759xh&resize=2048:*" alt=""> -->
+    
+    <div class="container-mini">
+      <h2 class="title-mini">Our Best Customers</h2>
+      <div class="container-image">
+        <img class="mini-image" src="https://s3-prod-mexico.autonews.com/s3fs-public/Tesla%20Modelo%203.jpg" alt="">
+        <input class="mini-button" type="submit" value="TESLA">
+      </div>
+      <div class="container-image">
+        <img class="mini-image" src="https://s1.1zoom.me/b5050/794/Ferrari_458_ItaliaYellow_489057_3840x2400.jpg" alt="">
+        <input class="mini-button" type="submit" value="FERRARI">
+      </div>
+      <div class="container-image">
+        <img class="mini-image" src="https://ag-spots-2017.o.auroraobjects.eu/2017/12/15/other/2880-1800-crop-lamborghini-diablo-vt-c970315122017141730_1.jpg" alt="">
+        <input class="mini-button" type="submit" value="LAMBORGHINI">
+      </div>
+      <div class="container-image">
+        <img class="mini-image" src="https://s.yimg.com/uu/api/res/1.2/ISzZ0mYejsT9yTDrsYUaLQ--~B/aD0xOTI0O3c9Mjg4NjtzbT0xO2FwcGlkPXl0YWNoeW9u/http://media.zenfs.com/en_US/News/US-AFPRelax/audi_e_tron_gt_.e2943092624.original.jpg" alt="">
+        <input class="mini-button" type="submit" value="AUDI">
+      </div>
     </div>
-
-    <div class="form-container">
-      <form class="form-fields" action="">
-
-        <label for="">Name:</label>
-        <input class="field" type="text" placeholder=" Your name...">
-        <label for="">E-mail:</label>
-        <input class="field" type="email" placeholder=" Your e-mail...">
-        <label for="">Cellphone:</label>
-        <input class="field" type="tel" placeholder=" Your cellphone number...">
-        <label for="">Message:</label>
-        <textarea placeholder=" Type your message..."></textarea>
-        <input class="contact-btn" type="submit" value="Submit">
-
-      </form>
+  
+    <div class="about-us-container">
+      <h3>About us</h3>
+      <div class="about-content">
+        <div class="about-img-content">
+            <img class="about-img" src="http://www.pinktentacle.com/images/flag_15.jpg" alt="">
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
     </div>
-  </div>
-
+  
+    <div class="contact-container" #about id="about">
+      <h3>Contact us</h3>
+      <div class="contact-img-container">
+        <!-- <img class="img-contact" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2018-tesla-model-s-100d-1545165580.jpg?crop=1.00xw:0.924xh;0,0.0759xh&resize=2048:*" alt=""> -->
+      </div>
+  
+      <div class="form-container">
+        <form class="form-fields" action="">
+  
+          <label for="">Name:</label>
+          <input class="field" type="text" placeholder=" Your name...">
+          <label for="">E-mail:</label>
+          <input class="field" type="email" placeholder=" Your e-mail...">
+          <label for="">Cellphone:</label>
+          <input class="field" type="tel" placeholder=" Your cellphone number...">
+          <label for="">Message:</label>
+          <textarea placeholder=" Type your message..."></textarea>
+          <input class="contact-btn" type="submit" value="Submit">
+  
+        </form>
+      </div>
+    </div>
+  </section>
+  <section id="id-footer">
+    <div class="footer">
+      <div class="container-footer">
+        <div class="col">yokohama@ing.com</div>
+        <div class="col">YOKOHAMA</div>
+        <div class="col">
+          <ul class="home-social">
+            <li>
+              <a href="#0">
+                <i class="fa fa-facebook"></i>
+                <span>Facebook</span>
+              </a>
+            </li>
+            <li>
+              <a href="#0">
+                <i class="fa fa-twitter"></i>
+                <span>Twitter</span>
+              </a>
+            </li>
+            <li>
+              <a href="#0">
+                <i class="fa fa-instagram"></i>
+                <span>Instagram</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
 </body>
-<footer class="footer">
-  <div class="container-footer">
-    <div class="col">yokohama@ing.com</div>
-    <div class="col">YOKOHAMA</div>
-    <div class="col">
-      <ul class="home-social">
-        <li>
-          <a href="#0">
-            <i class="fa fa-facebook"></i>
-            <span>Facebook</span>
-          </a>
-        </li>
-        <li>
-          <a href="#0">
-            <i class="fa fa-twitter"></i>
-            <span>Twitter</span>
-          </a>
-        </li>
-        <li>
-          <a href="#0">
-            <i class="fa fa-instagram"></i>
-            <span>Instagram</span>
-          </a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</footer>
 </html>
