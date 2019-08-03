@@ -296,6 +296,19 @@ body {
   transform: scale(1.03);
 }
 
+.close {
+  font-weight: bold;
+  color: white;
+  background: red;
+  width: 20px;
+  padding: 8px;
+  text-align: center;
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+}
+
 .container-cards {
   display: flex;
   justify-content: space-evenly;
