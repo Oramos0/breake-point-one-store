@@ -116,6 +116,10 @@ body {
 .header .header-right li a:hover, .header .header-right .dropdown:hover .dropbtn {
   background-color: #5588a3;
 }
+.header .header-right li a[id=about]:target ~ #id-body div.contact-container {
+  -webkit-transform: translateY(100px);
+  transform: translateY(100px);
+}
 .header .header-right li.dropdown {
   display: inline-block;
 }
@@ -147,7 +151,7 @@ body {
     display: flex !important;
   }
 }
-footer {
+.footer {
   position: absolute;
   right: 0;
   left: 0;
@@ -157,20 +161,20 @@ footer {
   color: #e8e8e8;
   height: 5vh;
 }
-footer .container-footer {
+.footer .container-footer {
   margin: 0.5rem 0.5rem 0.5rem 0.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-footer .container-footer .col:nth-child(3) {
+.footer .container-footer .col:nth-child(3) {
   display: flex;
 }
-footer .container-footer .col:nth-child(3) .col {
+.footer .container-footer .col:nth-child(3) .col {
   display: flex;
   align-items: center;
 }
-footer .container-footer .col:nth-child(3) ul {
+.footer .container-footer .col:nth-child(3) ul {
   font-family: "montserrat-regular", sans-serif;
   list-style: none;
   margin: 0;
@@ -181,22 +185,22 @@ footer .container-footer .col:nth-child(3) ul {
   -ms-transform: translate3d(0, -50%, 0);
   transform: translate3d(0, -50%, 0);
 }
-footer .container-footer .col:nth-child(3) ul li {
+.footer .container-footer .col:nth-child(3) ul li {
   position: relative;
   padding: 0.4rem 0.5rem;
   float: left;
 }
-footer .container-footer .col:nth-child(3) ul li a {
+.footer .container-footer .col:nth-child(3) ul li a {
   display: block;
   width: 33px;
   height: 33px;
 }
-footer .container-footer .col:nth-child(3) ul a {
+.footer .container-footer .col:nth-child(3) ul a {
   color: white;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
-footer .container-footer .col:nth-child(3) ul i {
+.footer .container-footer .col:nth-child(3) ul i {
   font-size: 14px;
   right: 0;
   text-align: center;
@@ -207,14 +211,14 @@ footer .container-footer .col:nth-child(3) ul i {
   border: 2px solid #FFFFFF;
   border-radius: 50%;
 }
-footer .container-footer .col:nth-child(3) ul i {
+.footer .container-footer .col:nth-child(3) ul i {
   position: absolute;
   top: 0;
   line-height: 33px;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
-footer .container-footer .col:nth-child(3) ul span {
+.footer .container-footer .col:nth-child(3) ul span {
   color: #39b54a;
   right: 4.5rem;
   font-size: 1.3rem;
@@ -229,9 +233,14 @@ footer .container-footer .col:nth-child(3) ul span {
 }
 
 .modal {
+  display: none;
   position: fixed;
   z-index: 100;
-  left: 20vw;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  height: 100vh;
+  width: 100%;
 }
 
 .modal.on {
@@ -242,6 +251,9 @@ footer .container-footer .col:nth-child(3) ul span {
   width: 60vw;
   height: 70vh;
   display: flex;
+  position: absolute;
+  left: 20vw;
+  top: 15vh;
   background: #e8e8e8;
 }
 
@@ -282,6 +294,59 @@ footer .container-footer .col:nth-child(3) ul span {
   cursor: pointer;
   background: #5588a3;
   transform: scale(1.03);
+}
+
+.container-cards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-top: 70px;
+  background-color: #e8e8e8;
+  min-height: 100vh;
+}
+.container-cards .container-card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 0 8px 10px -10px #000;
+  height: 350px;
+  width: 400px;
+}
+.container-cards .container-card .image-card {
+  height: 280px;
+  width: 400px;
+}
+.container-cards .container-card .info-card {
+  display: flex;
+  align-items: center;
+  margin-top: -5px;
+  margin-left: 10px;
+}
+.container-cards .container-card .info-card .logo-card {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.container-cards .container-card .info-card .container-info-card {
+  margin-top: -5px;
+  margin-left: 5px;
+}
+.container-cards .container-card .info-card .price-card {
+  margin-top: -20px;
+  font-size: 20px;
+}
+.container-cards .container-card .info-card .button-card {
+  height: 30px;
+  width: 20%;
+  border: 0;
+  background-color: #5588a3;
+  border-radius: 5px;
+  color: white;
+  font-weight: 400;
+  margin-left: 80px;
+}
+.container-cards .container-card .info-card .button-card:focus, .container-cards .container-card .info-card .button-card:hover {
+  background-color: #145374;
 }
 
 /*# sourceMappingURL=styles.css.map */
