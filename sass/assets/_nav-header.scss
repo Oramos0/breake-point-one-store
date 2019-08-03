@@ -82,6 +82,11 @@ $primary: #00334e;
         li a:hover, .dropdown:hover .dropbtn {
             background-color: $secondary;
         }
+
+        li a[ id= "about" ]:target ~ #id-body div.contact-container {
+            -webkit-transform: translateY( 100px);
+            transform: translateY( 100px );
+        }
         
         li.dropdown {
             display: inline-block;

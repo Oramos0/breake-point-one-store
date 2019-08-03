@@ -116,6 +116,10 @@ body {
 .header .header-right li a:hover, .header .header-right .dropdown:hover .dropbtn {
   background-color: #5588a3;
 }
+.header .header-right li a[id=about]:target ~ #id-body div.contact-container {
+  -webkit-transform: translateY(100px);
+  transform: translateY(100px);
+}
 .header .header-right li.dropdown {
   display: inline-block;
 }
