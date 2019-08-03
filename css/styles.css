@@ -147,7 +147,7 @@ body {
     display: flex !important;
   }
 }
-footer {
+.footer {
   position: absolute;
   right: 0;
   left: 0;
@@ -157,20 +157,20 @@ footer {
   color: #e8e8e8;
   height: 5vh;
 }
-footer .container-footer {
+.footer .container-footer {
   margin: 0.5rem 0.5rem 0.5rem 0.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-footer .container-footer .col:nth-child(3) {
+.footer .container-footer .col:nth-child(3) {
   display: flex;
 }
-footer .container-footer .col:nth-child(3) .col {
+.footer .container-footer .col:nth-child(3) .col {
   display: flex;
   align-items: center;
 }
-footer .container-footer .col:nth-child(3) ul {
+.footer .container-footer .col:nth-child(3) ul {
   font-family: "montserrat-regular", sans-serif;
   list-style: none;
   margin: 0;
@@ -181,22 +181,22 @@ footer .container-footer .col:nth-child(3) ul {
   -ms-transform: translate3d(0, -50%, 0);
   transform: translate3d(0, -50%, 0);
 }
-footer .container-footer .col:nth-child(3) ul li {
+.footer .container-footer .col:nth-child(3) ul li {
   position: relative;
   padding: 0.4rem 0.5rem;
   float: left;
 }
-footer .container-footer .col:nth-child(3) ul li a {
+.footer .container-footer .col:nth-child(3) ul li a {
   display: block;
   width: 33px;
   height: 33px;
 }
-footer .container-footer .col:nth-child(3) ul a {
+.footer .container-footer .col:nth-child(3) ul a {
   color: white;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
-footer .container-footer .col:nth-child(3) ul i {
+.footer .container-footer .col:nth-child(3) ul i {
   font-size: 14px;
   right: 0;
   text-align: center;
@@ -207,14 +207,14 @@ footer .container-footer .col:nth-child(3) ul i {
   border: 2px solid #FFFFFF;
   border-radius: 50%;
 }
-footer .container-footer .col:nth-child(3) ul i {
+.footer .container-footer .col:nth-child(3) ul i {
   position: absolute;
   top: 0;
   line-height: 33px;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
-footer .container-footer .col:nth-child(3) ul span {
+.footer .container-footer .col:nth-child(3) ul span {
   color: #39b54a;
   right: 4.5rem;
   font-size: 1.3rem;
