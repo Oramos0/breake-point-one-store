@@ -59,6 +59,9 @@ body {
   align-items: center;
   text-decoration: none;
 }
+.header .logo img {
+  width: 70px;
+}
 .header .header-right {
   display: block;
   width: 100%;
