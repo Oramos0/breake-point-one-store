@@ -228,4 +228,57 @@ footer .container-footer .col:nth-child(3) ul span {
   transform-origin: 100% 50%;
 }
 
+.container-cards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-top: 70px;
+  background-color: #e8e8e8;
+  min-height: 100vh;
+}
+.container-cards .container-card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 0 8px 10px -10px #000;
+  height: 350px;
+  width: 400px;
+}
+.container-cards .container-card .image-card {
+  height: 280px;
+  width: 400px;
+}
+.container-cards .container-card .info-card {
+  display: flex;
+  align-items: center;
+  margin-top: -5px;
+  margin-left: 10px;
+}
+.container-cards .container-card .info-card .logo-card {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.container-cards .container-card .info-card .container-info-card {
+  margin-top: -5px;
+  margin-left: 5px;
+}
+.container-cards .container-card .info-card .price-card {
+  margin-top: -20px;
+  font-size: 20px;
+}
+.container-cards .container-card .info-card .button-card {
+  height: 30px;
+  width: 20%;
+  border: 0;
+  background-color: #5588a3;
+  border-radius: 5px;
+  color: white;
+  font-weight: 400;
+  margin-left: 80px;
+}
+.container-cards .container-card .info-card .button-card:focus, .container-cards .container-card .info-card .button-card:hover {
+  background-color: #145374;
+}
+
 /*# sourceMappingURL=styles.css.map */
