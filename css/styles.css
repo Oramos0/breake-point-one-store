@@ -236,7 +236,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  padding-top: 70px;
+  padding-top: 50px;
   background-color: #e8e8e8;
   min-height: 100vh;
 }
@@ -247,6 +247,7 @@ body {
   box-shadow: 0 8px 10px -10px #000;
   height: 350px;
   width: 400px;
+  margin-bottom: 50px;
 }
 .container-cards .container-card .image-card {
   height: 280px;
@@ -266,6 +267,9 @@ body {
 .container-cards .container-card .info-card .container-info-card {
   margin-top: -5px;
   margin-left: 5px;
+}
+.container-cards .container-card .info-card .container-info-card h3 {
+  color: #4b4b4b;
 }
 .container-cards .container-card .info-card .price-card {
   margin-top: -20px;
